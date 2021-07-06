@@ -15,6 +15,11 @@
 		43FA276126945F7D006BD390 /* GithubsUsers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43FA275F26945F7D006BD390 /* GithubsUsers.xcdatamodeld */; };
 		43FA276326945F80006BD390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FA276226945F80006BD390 /* Assets.xcassets */; };
 		43FA276626945F80006BD390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FA276426945F80006BD390 /* LaunchScreen.storyboard */; };
+		43FA2778269465EC006BD390 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA2777269465EC006BD390 /* User.swift */; };
+		43FA278226946BB7006BD390 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA278126946BB7006BD390 /* RequestBuilder.swift */; };
+		43FA278626946C8E006BD390 /* RequestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA278526946C8E006BD390 /* RequestBase.swift */; };
+		43FA278E26946E70006BD390 /* RequestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA278D26946E70006BD390 /* RequestConstants.swift */; };
+		43FA279126946F63006BD390 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA279026946F63006BD390 /* UserDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		43FA276226945F80006BD390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43FA276526945F80006BD390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43FA276726945F80006BD390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43FA2777269465EC006BD390 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		43FA278126946BB7006BD390 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		43FA278526946C8E006BD390 /* RequestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBase.swift; sourceTree = "<group>"; };
+		43FA278D26946E70006BD390 /* RequestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConstants.swift; sourceTree = "<group>"; };
+		43FA279026946F63006BD390 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		CA5A15A15105BAA9A4A7A6F3 /* Pods-GithubsUsers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubsUsers.release.xcconfig"; path = "Target Support Files/Pods-GithubsUsers/Pods-GithubsUsers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,11 +84,12 @@
 		43FA275526945F7D006BD390 /* GithubsUsers */ = {
 			isa = PBXGroup;
 			children = (
+				43FA276426945F80006BD390 /* LaunchScreen.storyboard */,
 				43FA275626945F7D006BD390 /* AppDelegate.swift */,
 				43FA275826945F7D006BD390 /* SceneDelegate.swift */,
 				43FA277126946199006BD390 /* Main */,
+				43FA277A2694661A006BD390 /* WebServices */,
 				43FA276226945F80006BD390 /* Assets.xcassets */,
-				43FA276426945F80006BD390 /* LaunchScreen.storyboard */,
 				43FA276726945F80006BD390 /* Info.plist */,
 				43FA275F26945F7D006BD390 /* GithubsUsers.xcdatamodeld */,
 			);
@@ -88,6 +99,8 @@
 		43FA276E26946147006BD390 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				43FA2777269465EC006BD390 /* User.swift */,
+				43FA279026946F63006BD390 /* UserDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,6 +129,16 @@
 				43FA276E26946147006BD390 /* Model */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		43FA277A2694661A006BD390 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				43FA278126946BB7006BD390 /* RequestBuilder.swift */,
+				43FA278526946C8E006BD390 /* RequestBase.swift */,
+				43FA278D26946E70006BD390 /* RequestConstants.swift */,
+			);
+			path = WebServices;
 			sourceTree = "<group>";
 		};
 		98D6BA2FB42239DB26A39526 /* Frameworks */ = {
@@ -242,8 +265,13 @@
 			files = (
 				43FA275B26945F7D006BD390 /* ViewController.swift in Sources */,
 				43FA276126945F7D006BD390 /* GithubsUsers.xcdatamodeld in Sources */,
+				43FA279126946F63006BD390 /* UserDetails.swift in Sources */,
 				43FA275726945F7D006BD390 /* AppDelegate.swift in Sources */,
+				43FA278226946BB7006BD390 /* RequestBuilder.swift in Sources */,
+				43FA2778269465EC006BD390 /* User.swift in Sources */,
 				43FA275926945F7D006BD390 /* SceneDelegate.swift in Sources */,
+				43FA278626946C8E006BD390 /* RequestBase.swift in Sources */,
+				43FA278E26946E70006BD390 /* RequestConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
