@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  GithubsUsers
+
+  Created by Yaser on 7/8/21.
+  
+*/
+"Error" = "خطأ";
+"User name" = "الإسم المستعار";
+"Followers" = "عدد المتابعين";
+"Following" = "يتابع";
+"Name" = "الإسم";
+"Users" = "المستخدمين";

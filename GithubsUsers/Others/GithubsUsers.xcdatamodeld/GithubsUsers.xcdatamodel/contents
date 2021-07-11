@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User_CD" representedClassName=".User_CD" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="userDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserDetails_CD" inverseName="ownerUser" inverseEntity="UserDetails_CD"/>
+    </entity>
+    <entity name="UserDetails_CD" representedClassName=".UserDetails_CD" syncable="YES">
+        <attribute name="followers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="following" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="ownerUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User_CD" inverseName="userDetails" inverseEntity="User_CD"/>
+    </entity>
+    <elements>
+        <element name="User_CD" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="UserDetails_CD" positionX="154.83984375" positionY="-12.40234375" width="128" height="118"/>
+    </elements>
+</model>

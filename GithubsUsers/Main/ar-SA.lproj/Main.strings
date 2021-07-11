@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WeC-Ew-pON"; */
+"WeC-Ew-pON.text" = "Label";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "YJX-lD-F3h"; */
+"YJX-lD-F3h.text" = "الاسم:";
+
+/* Class = "UILabel"; text = "Followers:"; ObjectID = "bHi-Da-BmN"; */
+"bHi-Da-BmN.text" = "المتابعين:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "f6d-mE-CMl"; */
+"f6d-mE-CMl.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jHj-An-dha"; */
+"jHj-An-dha.text" = "Label";
+
+/* Class = "UILabel"; text = "Following:"; ObjectID = "l8W-aP-rJ9"; */
+"l8W-aP-rJ9.text" = "يتابع:";
